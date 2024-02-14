@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/sites-logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Catalog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cartt.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    
+</div>
+
+<!-------------------contact page page---------------------->
+
+<div class="contact-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/bg1.png" width="100%" alt="Contact Background">
+            </div>
+            <div class="col-2"> <!-- Added col-2 class here -->
+                <div class="wrapper">
+                    <div class="title">
+                        <h1>contact Us</h1>
+                    </div>
+                    <div class="contact-form">
+                        <div class="input-fields">
+                            <input type="text" class="input" placeholder="Name">
+                            <input type="text" class="input" placeholder="Email Address">
+                            <input type="text" class="input" placeholder="Phone">
+                            <input type="text" class="input" placeholder="Subject">
+                        </div>
+                        <div class="msg">
+                            <textarea placeholder="Message"></textarea>
+                            <div class="btn">send</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------All details of the footer---------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/sites-logo.png">
+                <p>We believe in empowering women through fashion.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Customer Services</li>
+                    <li>Shipping</li>
+                    <li>Return Policy</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <div class="social-icons">
+                    <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <hr>
+            </div>
+            </div>
+            </div>
+
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+        MenuItems.style.maxHeight = "0px";  
+    }
+}
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/sites-logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Catalog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cartt.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    
+</div>
+   
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Our Catalog</h2>
+        <select>
+            <option>Default sorting</option>
+            <option>Sort by price</option>
+            <option>Sort by popularity</option>
+            <option>Sort by sale</option>
+        </select>
+    </div>
+
+
+    <div class="row">
+        <div class="col-4">
+            <img src="images/catalog1.png">
+            <h4>Urban Chic Sneakers</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.5,000</P>
+        </div>
+        <div class="col-4">
+            <img src="images/catalog2.png">
+            <h4>Signature Jacket</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.5,500</P>
+        </div>
+        <div class="col-4">
+            <img src="images/catalog3.png">
+            <h4>Women Sneakers</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.6,500</P>
+        </div>
+        <div class="col-4">
+            <img src="images/catalog4.png">
+            <h4>Ladies' Jeans</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.2,000</P>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/catalog5.png">
+            <h4>Brown Sweater</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.3,000</P>
+        </div>
+        <div class="col-4">
+            <img src="images/catalog6.png">
+            <h4>Black Chic Jacket</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.4,500</P>
+        </div>
+        <div class="col-4">
+            <img src="images/catalog7.png">
+            <h4>Blue Silk Dress</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.7,000</P>
+        </div>
+        <div class="col-4">
+            <img src="images/catalog8.png">
+            <h4>fall Sweater</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.2,000</P>
+        </div>
+    
+        <div class="col-4">
+            <img src="images/catalog9.png">
+            <h4>Prada Bag</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.15,000</P>
+        </div>
+        <div class="col-4">
+            <img src="images/catalog10.png">
+            <h4>Cool Trendy T-Shirt</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.1,500</P>
+        </div>
+        <div class="col-4">
+            <img src="images/catalog11.png">
+            <h4>Doll Shoes</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.1,999</P>
+        </div>
+        <div class="col-4">
+            <img src="images/catalog12.png">
+            <h4>Leather jacket</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <P>Ksh.7,000</P>
+        </div>
+</div>
+<div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594;</span>
+</div>
+
+<!------------All details of the footer---------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/sites-logo.png">
+                <p>We believe in empowering women through fashion.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Customer Services</li>
+                    <li>Shipping</li>
+                    <li>Return Policy</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <div class="social-icons">
+                    <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <hr>
+            </div>
+            </div>
+            </div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+        MenuItems.style.maxHeight = "0px";  // Fix the typo here
+    }
+}
+
+</script>
+</body>
+</html>
